@@ -1,0 +1,90 @@
+/* work san font */
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+/* common style */
+ *{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+ }
+
+.btn-primary{
+    margin: 10px auto 20px;
+    padding: 15px 25px;
+    background-color: #FF900E; 
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+ /* nav style start */
+
+header{
+    background: rgba(255, 144, 14, 0.10);
+    border: 1px solid red;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-left: 25px;
+    margin-right: 25px; */
+}
+
+.nav-title{
+text-align: center;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+color: #131313;
+}
+
+nav  ul{
+    display: flex;
+
+    /* justify apply hoy na keno?/ */
+    /* justify-content: space-evenly;
+    align-items: center; */
+}
+
+ul  li{
+    list-style: none;
+    margin-left:30px ;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+   
+}
+nav li a{
+text-decoration: none;
+color: #424242;
+}
+
+/* banner styles */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    color: #131313;
+text-align: center;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+}
+
+.banner-description{
+color: #727272;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
+.banner img{
+    margin-top: 20px;
+    width: 100%;
+}
